@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bulk Delete ChatGPT Chats</title>
+<meta name="description" content="Chrome extension to select, filter, preview, then bulk delete, archive or unarchive ChatGPT conversations. No login, no ads, zero data collection.">
+<link rel="icon" href="../favicon.svg"><link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="top"><a class="home" href="../">Andrushika</a><nav><a href="#pricing">Pricing</a><a href="../privacy.html">Privacy</a><a href="../terms.html">Terms &amp; refunds</a></nav></header>
+<main>
+  <div class="hero"><img src="img/icon.png" alt=""><div>
+    <h1>Bulk Delete ChatGPT Chats</h1>
+    <p class="lead">Clean up hundreds of ChatGPT conversations in one sitting. No login, no ads, zero data collection.</p>
+  </div></div>
+  <div class="cta">
+    <a class="btn" id="install" href="https://chromewebstore.google.com/search/Bulk%20Delete%20ChatGPT%20Chats">Add to Chrome</a>
+    <a class="btn ghost" href="#pricing">Pricing</a>
+  </div>
+  <figure><img src="img/screenshot-1.png" alt="Checkboxes added to every conversation in the ChatGPT sidebar"><figcaption>Checkboxes on every chat. Shift-click selects a range.</figcaption></figure>
+
+  <h2>What it does</h2>
+  <div class="grid">
+    <div class="card"><h3>Select fast</h3><p>Checkboxes on every conversation, Select all (loads your whole history first), Shift-click for a range.</p></div>
+    <div class="card"><h3>Filter first</h3><p>Narrow down by a word in the title, or to chats created 30 or more days ago.</p></div>
+    <div class="card"><h3>Preview, then act</h3><p>See the exact list before anything happens. Delete, archive, or bulk unarchive.</p></div>
+    <div class="card"><h3>Safe and resumable</h3><p>Paced to respect ChatGPT's limits, cancellable, and it picks up where it left off if the page closes.</p></div>
+  </div>
+  <figure><img src="img/screenshot-3.png" alt="Preview dialog listing the conversations that will be deleted"><figcaption>Nothing is deleted until you confirm the list.</figcaption></figure>
+  <figure><img src="img/screenshot-4.png" alt="Bulk unarchive on the ChatGPT archived chats page"><figcaption>Bulk unarchive from Settings › Archived chats.</figcaption></figure>
+
+  <h2>How it works</h2>
+  <p>The extension clicks the same menu buttons you would click in ChatGPT. It never calls ChatGPT's internal API and never reads your messages. Its only browser permission is <code>storage</code>, and the only server it contacts is our payment provider, to check whether you bought Pro.</p>
+
+  <h2 id="pricing">Pricing</h2>
+  <div class="price">
+    <div class="card"><h3>Free</h3><div class="amt">$0</div><ul><li>10 conversations a day</li><li>Delete, archive and unarchive</li><li>No account needed</li></ul></div>
+    <div class="card"><h3>Pro</h3><div class="amt">US$9.99 <span class="note">once</span></div><ul><li>No daily limit</li><li>All future updates</li><li>No subscription</li><li>Refund on request, no questions asked</li></ul></div>
+  </div>
+  <figure><img src="img/screenshot-5.png" alt="Upgrade screen showing what Pro includes"><figcaption>Upgrade from inside the extension when you need more than 10 a day.</figcaption></figure>
+  <p class="note">Payments are processed by Lemon Squeezy, our merchant of record. After paying you receive a license key by email; paste it into the extension's settings to unlock Pro.</p>
+
+  <h2>FAQ</h2>
+  <p><strong>Can deleted chats be recovered?</strong> No. ChatGPT deletes them permanently, which is why every run shows a preview first. Archive if you are unsure.</p>
+  <p><strong>Is this made by OpenAI?</strong> No. It is an independent tool and is not affiliated with OpenAI.</p>
+  <p><strong>What if ChatGPT changes its layout?</strong> The extension is tested against chatgpt.com every day and fixed quickly when something changes.</p>
+
+  <footer><span>© 2026 Andrushika</span><a href="../privacy.html">Privacy policy</a><a href="../terms.html">Terms &amp; refunds</a><span>Contact: <a href="mailto:support@andrushika.com">support@andrushika.com</a></span></footer>
+</main>
+</body>
+</html>

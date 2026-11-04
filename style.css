@@ -1,0 +1,23 @@
+:root{--bg:#fbfcfb;--fg:#15201c;--muted:#5b6964;--card:#fff;--line:#e2e8e5;--brand:#0f8a6c;--brand-ink:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#111614;--fg:#e9efec;--muted:#9aa8a2;--card:#18201d;--line:#26322d;--brand:#22b08c;--brand-ink:#05130e}}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,"Segoe UI","PingFang TC","Noto Sans TC",Helvetica,Arial,sans-serif}
+a{color:var(--brand)}main{max-width:880px;margin:0 auto;padding:24px 16px 64px}
+header.top{max-width:880px;margin:0 auto;padding:16px;display:flex;align-items:center;gap:10px;justify-content:space-between}
+header.top a.home{font-weight:700;color:var(--fg);text-decoration:none}header.top nav a{margin-left:16px;color:var(--muted);text-decoration:none;font-size:14px}
+.hero{display:flex;gap:20px;align-items:center;margin:24px 0 8px}.hero img{width:72px;height:72px;flex:none}
+h1{font-size:34px;line-height:1.15;margin:0 0 6px;letter-spacing:-.4px}h2{font-size:22px;margin:40px 0 10px}
+.lead{font-size:18px;color:var(--muted);margin:0}
+.btn{display:inline-block;background:var(--brand);color:var(--brand-ink);padding:10px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;color:var(--brand);border:1px solid var(--brand)}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--muted)}
+figure{margin:18px 0}figure img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);display:block}
+figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+.price{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.price .amt{font-size:30px;font-weight:800;margin:4px 0}.price ul{margin:8px 0 0;padding-left:18px;color:var(--muted)}
+.note{font-size:14px;color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:56px;padding-top:16px;font-size:14px;color:var(--muted);display:flex;gap:16px;flex-wrap:wrap}
+footer a{color:var(--muted)}
+.legal h2{font-size:19px;margin-top:28px}.legal li{margin:4px 0}
