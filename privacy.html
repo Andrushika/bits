@@ -22,9 +22,9 @@
   </ul>
   <p>These are stored with Chrome's extension storage (synced through your own Chrome account if you turned sync on) and never sent to us.</p>
   <h2>What the extension reads</h2>
-  <p>On chatgpt.com it reads conversation titles and links in the sidebar and on the Archived chats page, to show checkboxes and apply your filters. It never reads message contents and never transmits titles or links.</p>
+  <p>In your own signed-in ChatGPT tab, the extension asks chatgpt.com, with the same requests the ChatGPT website makes, for the list of your conversations: id, title, created and last-updated time, and whether each is archived. It shows them in its panel and applies your filters. When you confirm an action it asks chatgpt.com to archive, unarchive or delete exactly the conversations you selected. It never reads message contents. The list stays in that tab's memory and is never sent to us or anyone else.</p>
   <h2>Permissions</h2>
-  <p>Only <code>storage</code>, plus a content script on chatgpt.com. No other site access.</p>
+  <p>Only <code>storage</code>, plus a content script on chatgpt.com. Network requests go only to chatgpt.com, from your own tab, and to Lemon Squeezy's license API.</p>
   <h2>Payments</h2>
   <p>Pro is sold by Lemon Squeezy, our merchant of record. When you buy, Lemon Squeezy collects your email and payment details under <a href="https://www.lemonsqueezy.com/privacy">its own privacy policy</a>; we never see your card. The extension contacts Lemon Squeezy's license API only to check your license key.</p>
   <h2>Debug information</h2>
