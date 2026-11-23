@@ -19,7 +19,8 @@
     <a class="btn" id="install" href="https://chromewebstore.google.com/detail/bits-sweep-bulk-delete-ch/cflelaopjceleomngmkknnjgfpnecbge">Add to Chrome</a>
     <a class="btn ghost" href="#pricing">Pricing</a>
   </div>
-  <figure><video src="demo.mp4" controls muted playsinline preload="metadata" poster="img/screenshot-1.png" style="width:100%;border-radius:12px;border:1px solid var(--line);display:block"></video><figcaption>30-second demo on the real chatgpt.com.</figcaption></figure>
+  <figure><video id="promo" src="promo.mp4" autoplay muted loop playsinline controls preload="auto" poster="img/promo-poster.png" aria-label="20-second overview: filter your ChatGPT chats, preview the list, confirm" style="width:100%;border-radius:12px;border:1px solid var(--line);display:block"></video><figcaption>20 seconds, no sound needed.</figcaption></figure>
+  <script>if(matchMedia("(prefers-reduced-motion: reduce)").matches){const v=document.getElementById("promo");v.removeAttribute("autoplay");v.pause();}</script>
 
   <h2>What it does</h2>
   <div class="grid">
@@ -28,6 +29,7 @@
     <div class="card"><h3>Preview, then act</h3><p>See the exact list before anything happens. Delete, archive, or bulk unarchive.</p></div>
     <div class="card"><h3>Safe and resumable</h3><p>Paced to respect ChatGPT's limits, backs off automatically, cancellable, and it picks up where it left off if the page closes.</p></div>
   </div>
+  <figure><video src="demo.mp4" controls muted playsinline preload="metadata" poster="img/screenshot-1.png" style="width:100%;border-radius:12px;border:1px solid var(--line);display:block"></video><figcaption>Full 30-second demo, recorded on the real chatgpt.com.</figcaption></figure>
   <figure><img src="img/screenshot-3.png" alt="Preview dialog listing the conversations that will be deleted"><figcaption>Nothing is deleted until you confirm the list.</figcaption></figure>
   <figure><img src="img/screenshot-4.png" alt="Archived tab of the bulk manage panel"><figcaption>Bulk unarchive or delete from the Archived tab.</figcaption></figure>
 
